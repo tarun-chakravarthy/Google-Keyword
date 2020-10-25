@@ -1,0 +1,34 @@
+.settings-container {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.number-container,
+.button-group,
+.number-container-operator,
+.number-input {
+  display: flex;
+}
+
+.number-container-operator {
+  flex-direction: column;
+}
+
+.number-input {
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.bottom-checkboxes {
+  margin-top: 30px;
+}
+
+.button-group {
+  justify-content: space-evenly;
+}
+
+.headings {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
